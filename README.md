@@ -1,12 +1,12 @@
 # Parvez Shaik Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-sde--port.vercel.app-5f71a6?style=for-the-badge)](https://sde-port.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-parvezshaik.me-5f71a6?style=for-the-badge)](https://parvezshaik.me)
 
 A professional, editorial-style portfolio website for Parvez Shaik, focused on backend engineering, SRE, cloud reliability, DevOps automation, and AI retrieval systems.
 
 ## Live Demo
 
-View the deployed portfolio: [https://sde-port.vercel.app](https://sde-port.vercel.app)
+View the deployed portfolio: [https://parvezshaik.me](https://parvezshaik.me)
 
 ## Preview
 
@@ -108,7 +108,7 @@ The site supports light and dark themes using CSS variables and a persisted `loc
 
 The project is deployed on Vercel:
 
-[![Open Live Portfolio](https://img.shields.io/badge/Open%20Live%20Portfolio-Vercel-000000?style=for-the-badge&logo=vercel)](https://sde-port.vercel.app)
+[![Open Live Portfolio](https://img.shields.io/badge/Open%20Live%20Portfolio-parvezshaik.me-000000?style=for-the-badge&logo=vercel)](https://parvezshaik.me)
 
 Recommended Vercel settings:
 
