@@ -112,6 +112,26 @@ export default function Home() {
                     {project.title}
                   </h3>
                   <p className="mt-7 max-w-2xl text-lg leading-8 text-muted">{project.summary}</p>
+                  <div className="mt-7 flex flex-wrap gap-3">
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center justify-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-black text-white transition hover:bg-ink"
+                    >
+                      Live demo
+                      <ArrowUpRight size={17} />
+                    </a>
+                    <a
+                      href={project.repoUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="inline-flex items-center justify-center gap-2 rounded-xl border fine-border bg-paper/62 px-5 py-3 text-sm font-black text-ink transition hover:bg-paper"
+                    >
+                      Code
+                      <Github size={17} />
+                    </a>
+                  </div>
                   <div className="mt-8 flex flex-wrap gap-2">
                     {project.stack.map((item) => (
                       <span key={item} className="rounded-full border fine-border bg-fog/70 px-4 py-2 text-sm font-semibold text-ink">

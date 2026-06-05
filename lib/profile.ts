@@ -122,6 +122,8 @@ export const projects = [
   {
     title: "Agentive Med",
     stack: ["Python", "AG2", "AutoGen", "FAISS", "PubMed RAG", "Multi-Agent Systems"],
+    demoUrl: "https://agentive-med-demo.vercel.app",
+    repoUrl: "https://github.com/Parvez4/Agentive-Med",
     summary:
       "A healthcare-focused AI assistant designed around guarded orchestration: triage routes the question, domain agents isolate medical and nutrition context, and a verifier checks answers against retrieved clinical sources.",
     metrics: ["Supervisor-worker orchestration", "PubMed-backed retrieval", "Verifier agent guardrail"],
@@ -129,6 +131,8 @@ export const projects = [
   {
     title: "Distributed Vector Database for AI Applications",
     stack: ["Python", "gRPC", "RocksDB", "LlamaIndex", "AWS S3", "GraphRAG"],
+    demoUrl: "https://distributed-vector-db-demo.vercel.app",
+    repoUrl: "https://github.com/Parvez4/Distributed-Vector-Database",
     summary:
       "A retrieval system built around fast semantic search, distributed node communication, and storage designed for large LLM workloads.",
     metrics: ["140M+ embeddings", "93 ms average query latency", "Context-aware search at scale"],
