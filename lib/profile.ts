@@ -19,7 +19,7 @@ export const profile = {
   github: "https://github.com/Parvez",
   resume: "/Parvez_Shaik_Resume_SDE.pdf",
   summary:
-    "MS Computer Science graduate from Indiana University Bloomington, May 8, 2026, with 4 years of software engineering experience across backend systems, AWS deployments, CI/CD automation, production troubleshooting, and AI retrieval infrastructure.",
+    "Software Engineer with experience in backend systems, AI retrieval, and cloud deployments. Strong in API development, performance tuning, deployment troubleshooting, and building systems that stay reliable after release.",
 };
 
 export const proofPoints = [
@@ -72,23 +72,23 @@ export const experience = [
     impact:
       "Helped turn a manual content review process into an agent-assisted retrieval workflow with faster evaluation and stronger relevance.",
     bullets: [
-      "Introduced agent-assisted review into a Python content pipeline, cutting evaluation effort by 23% while keeping the workflow accountable.",
-      "Strengthened retrieval quality with LlamaIndex, SpaCy, and GraphRAG, helping generate 2,800+ assessment items as relevance rose from 72% to 83%.",
-      "Stabilized the Flask deployment path on AWS EC2 with Docker and Apache, removing repeated backend friction and improving evaluation speed by 18%.",
+      "Worked on a Python AI content pipeline using MySQL, Redis, and GraphRAG, integrating AutoGen agents to reduce manual content evaluation time by 23%.",
+      "Improved a proprietary LLM retrieval workflow with LlamaIndex and SpaCy, supporting 2,800+ topic-specific assessment items as relevancy rose from 72% to 83%.",
+      "Deployed a Flask backend on AWS EC2 with Docker and Apache, troubleshooting 4 recurring deployment issues through root cause analysis and improving model evaluation speed by 18%.",
     ],
   },
   {
     role: "Software Development Engineer II",
     company: "Cognizant",
     period: "Sep 2022 - Apr 2024",
-    tags: ["Node.js", "PostgreSQL", "Jenkins", "Docker", "AWS EC2"],
+    tags: ["Node.js", "PostgreSQL", "Jenkins", "Docker", "React"],
     impact:
       "Worked close to production systems where latency, failed builds, and release reliability had direct team impact.",
     bullets: [
-      "Traced bottlenecks through Node.js services and PostgreSQL, reducing production read latency from 420 ms to 295 ms.",
-      "Used logs, runtime checks, and release patterns to push Jenkins, Docker, and AWS EC2 deployment reliability to 99.7%.",
+      "Partnered with backend engineers on Node.js and Express.js microservices, tuning PostgreSQL indexing and query execution to reduce retrieval latency from 420 ms to 295 ms.",
+      "Led root cause analysis for recurring deployment failures using Jenkins logs and Docker runtime checks on AWS EC2, improving deployment reliability to 99.7%.",
       "Shifted configuration and smoke-test checks earlier in the pipeline, saving 35 minutes per sprint and reducing deployment failures by 45%.",
-      "Kept sprint releases moving by translating failed builds and environment issues into clear fixes across development, QA, and DevOps.",
+      "Collaborated with UI/UX teams on React.js and TypeScript modules, improving frontend responsiveness by 28% and raising Lighthouse score from 78 to 91.",
     ],
   },
   {
@@ -99,9 +99,9 @@ export const experience = [
     impact:
       "Balanced internal product work with the infrastructure needed to make environments faster to set up and easier to trust.",
     bullets: [
-      "Built React analytics views backed by GraphQL and Django APIs for near real-time internal reporting.",
-      "Reworked fetch and render behavior so dashboard updates felt faster, improving rendering speed by 21.6%.",
-      "Containerized backend environments on AWS EC2 with Docker and Jenkins, cutting setup time from 82 minutes to 39 minutes.",
+      "Built React.js dashboards for internal analytics workflows using GraphQL and Django APIs, supporting near real-time reporting for internal users.",
+      "Improved slow refresh behavior by working on data fetch handling and component rendering, increasing data rendering speed by 21.6%.",
+      "Helped containerize backend services on AWS EC2 using Docker and Jenkins, cutting setup time from 82 minutes to 39 minutes and reducing manual deployment errors by 17%.",
     ],
   },
   {
@@ -125,8 +125,8 @@ export const projects = [
     demoUrl: "https://agentive-med-demo.vercel.app",
     repoUrl: "https://github.com/Parvez4/Agentive-Med",
     summary:
-      "A healthcare-focused AI assistant designed around guarded orchestration: triage routes the question, domain agents isolate medical and nutrition context, and a verifier checks answers against retrieved clinical sources.",
-    metrics: ["Supervisor-worker orchestration", "PubMed-backed retrieval", "Verifier agent guardrail"],
+      "A multi-agent Alzheimer care assistant built with supervisor orchestration, PubMed-backed FAISS retrieval, tool triage, and domain guardrails that cross-check LLM outputs against medical citations.",
+    metrics: ["AG2 supervisor orchestration", "PubMed-backed FAISS RAG", "Medical citation verification"],
   },
   {
     title: "Distributed Vector Database for AI Applications",
@@ -134,7 +134,7 @@ export const projects = [
     demoUrl: "https://distributed-vector-db-demo.vercel.app",
     repoUrl: "https://github.com/Parvez4/Distributed-Vector-Database",
     summary:
-      "A retrieval system built around fast semantic search, distributed node communication, and storage designed for large LLM workloads.",
+      "A distributed vector database designed with gRPC node communication, RocksDB storage, GraphRAG, and LlamaIndex for semantic retrieval across large LLM workloads.",
     metrics: ["140M+ embeddings", "93 ms average query latency", "Context-aware search at scale"],
   },
 ];
@@ -143,12 +143,12 @@ export const skillGroups = [
   {
     icon: Code2,
     title: "Languages",
-    items: ["Python", "JavaScript", "TypeScript", "Java", "J2EE", "JDBC"],
+    items: ["Python", "JavaScript", "TypeScript", "Java", "C", "J2EE", "JDBC"],
   },
   {
     icon: Workflow,
     title: "Backend and APIs",
-    items: ["Node.js", "Express.js", "FastAPI", "Spring", "Hibernate", "REST", "GraphQL", "gRPC"],
+    items: ["Node.js", "Express.js", "Flask", "FastAPI", "Django", "REST", "GraphQL", "gRPC", "OAuth 2.0", "JWT"],
   },
   {
     icon: Database,
@@ -158,16 +158,26 @@ export const skillGroups = [
   {
     icon: GitBranch,
     title: "Cloud and DevOps",
-    items: ["AWS", "Azure", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Linux"],
+    items: ["AWS EC2", "AWS S3", "AWS Lambda", "Azure", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Apache", "Bash"],
   },
   {
     icon: BrainCircuit,
     title: "AI and Retrieval",
-    items: ["RAG", "GraphRAG", "LlamaIndex", "AutoGen", "SpaCy", "LLM Evaluation"],
+    items: ["RAG", "GraphRAG", "PubMed RAG", "LlamaIndex", "FAISS", "AutoGen", "AG2", "SpaCy"],
+  },
+  {
+    icon: BrainCircuit,
+    title: "ML and Data",
+    items: ["TensorFlow", "Pandas", "Scikit-learn", "RNN", "Data Preprocessing", "Model Evaluation"],
+  },
+  {
+    icon: Code2,
+    title: "Frontend",
+    items: ["React.js", "Redux", "TypeScript", "Tailwind CSS", "Lighthouse"],
   },
   {
     icon: ShieldCheck,
     title: "Reliability",
-    items: ["Observability", "Logs", "Incident Response", "Smoke Tests", "Latency Optimization", "Release Support"],
+    items: ["Concurrency", "Observability", "Root Cause Analysis", "Smoke Tests", "Latency Optimization", "Query Optimization"],
   },
 ];

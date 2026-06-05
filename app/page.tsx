@@ -38,8 +38,7 @@ export default function Home() {
           </Reveal>
           <Reveal delay={0.14}>
             <p className="mt-6 max-w-2xl text-xl leading-8 text-muted">
-              Software engineer with an MS in Computer Science from Indiana University and 4 years across backend,
-              cloud reliability, DevOps automation, and AI retrieval systems.
+              {profile.summary}
             </p>
           </Reveal>
           <Reveal delay={0.19}>
