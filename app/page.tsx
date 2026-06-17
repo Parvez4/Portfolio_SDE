@@ -28,12 +28,12 @@ export default function Home() {
         <div className="flex flex-col justify-center">
           <Reveal>
             <p className="text-xs font-black uppercase tracking-[0.25em] text-ink">
-              {profile.name} <span className="text-muted">- SDE / SRE / Cloud Engineer</span>
+              {profile.name} <span className="text-muted">- Software Developer / Full-Stack / Backend</span>
             </p>
           </Reveal>
           <Reveal delay={0.07}>
             <h1 className="display-serif mt-7 max-w-4xl text-[3.05rem] leading-[0.94] text-ink min-[420px]:text-[3.45rem] sm:text-[5.2rem] lg:text-[6.25rem]">
-              Systems that scale.
+              Software that ships.
             </h1>
           </Reveal>
           <Reveal delay={0.14}>
@@ -46,7 +46,7 @@ export default function Home() {
               <span className="flex h-4 w-4 items-center justify-center rounded-full bg-[#efe2ef]">
                 <span className="h-2 w-2 rounded-full bg-[#9d5a99]" />
               </span>
-              Open to SRE, DevOps, cloud, and backend roles across the U.S.
+              Open to Software Development Engineer, full-stack, backend, cloud, and AI retrieval roles.
             </div>
           </Reveal>
           <Reveal delay={0.24}>
@@ -243,10 +243,10 @@ export default function Home() {
               <div>
                 <p className="text-xs font-black uppercase tracking-[0.28em] text-muted">06 - Contact</p>
                 <h2 className="display-serif mt-4 max-w-3xl text-5xl leading-[0.95] text-ink md:text-7xl">
-                  Let&apos;s build what holds.
+                  Let&apos;s build what works.
                 </h2>
                 <p className="mt-7 max-w-2xl text-lg leading-8 text-muted">
-                  I am open to relocation across the U.S. for SRE, DevOps, cloud engineering, and backend software engineering roles.
+                  I am open to Software Development Engineer, full-stack, backend, cloud, and AI retrieval roles across the U.S.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <a href={`mailto:${profile.email}`} className="inline-flex items-center gap-2 rounded-xl bg-accent px-5 py-3 text-sm font-black text-white transition hover:bg-ink">
