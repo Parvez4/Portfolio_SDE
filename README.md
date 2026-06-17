@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-parvezshaik.me-5f71a6?style=for-the-badge)](https://parvezshaik.me)
 
-A professional, editorial-style portfolio website for Parvez Shaik, focused on backend engineering, SRE, cloud reliability, DevOps automation, and AI retrieval systems.
+A professional portfolio website for Parvez Shaik, focused on Software Development Engineer roles across full-stack web applications, backend APIs, databases, cloud deployments, testing, and AI retrieval systems.
 
 ## Live Demo
 
@@ -10,13 +10,13 @@ View the deployed portfolio: [https://parvezshaik.me](https://parvezshaik.me)
 
 ## Preview
 
-This portfolio is designed around a minimalist, high-signal presentation:
+This portfolio is designed around a high-signal recruiter flow:
 
-- Large editorial hero section with a pencil portrait
-- Light and dark theme toggle with persisted preference
-- Resume-backed engineering impact metrics
-- Featured project case studies
-- Professional experience timeline
+- Editorial hero section with clear SDE positioning
+- Updated resume download
+- Measured engineering impact metrics
+- Featured AI retrieval and distributed systems projects
+- Company experience summaries that complement, rather than repeat, the resume
 - Technical toolkit grouped by engineering domain
 - Contact section with direct profile links
 
@@ -31,23 +31,23 @@ This portfolio is designed around a minimalist, high-signal presentation:
 
 ## Portfolio Highlights
 
-The content is tailored around measurable engineering outcomes from Parvez's background:
+The content is tailored around Parvez's updated software development background:
 
-- Improved deployment reliability to **99.7%**
-- Reduced PostgreSQL read latency from **420 ms to 295 ms**
-- Saved **35 minutes per sprint** by moving release checks earlier
-- Reduced AI content review effort by **23%**
-- Built AI retrieval and distributed systems projects including Agentive Med and a distributed vector database
+- Full-stack application development with React, TypeScript, Node.js, and Python
+- Backend APIs, SQL-backed workflows, and database performance tuning
+- Docker, Jenkins, GitHub Actions, AWS EC2, and cloud deployment reliability
+- Testing, smoke checks, debugging, troubleshooting, and production support
+- AI retrieval systems including RAG, GraphRAG, LlamaIndex, FAISS, AutoGen, and AG2
 
 ## Featured Projects
 
 ### Agentive Med
 
-A healthcare-focused AI assistant designed around guarded orchestration. It uses triage routing, domain-specific agents, PubMed-backed retrieval, and a verifier guardrail to reduce unsupported LLM responses in a high-stakes care context.
+A multi-agent Alzheimer care assistant with supervisor orchestration, PubMed-backed FAISS retrieval, citation checks, and separated nutrition and medical agents for more verifiable responses.
 
 ### Distributed Vector Database for AI Applications
 
-A retrieval system built for large embedding workloads using distributed node communication, RocksDB-backed storage, GraphRAG, and LlamaIndex. The project targets low-latency semantic retrieval at scale.
+A distributed vector database prototype using gRPC service communication, RocksDB storage, GraphRAG, LlamaIndex, and AWS S3 support for large-scale retrieval workloads.
 
 ## Local Development
 
@@ -121,4 +121,4 @@ Recommended Vercel settings:
 
 - Email: `shaikparvez977@gmail.com`
 - LinkedIn: [linkedin.com/in/parvez-shaik](https://www.linkedin.com/in/parvez-shaik)
-- GitHub: [github.com/Parvez](https://github.com/Parvez)
+- GitHub: [github.com/Parvez4](https://github.com/Parvez4)
