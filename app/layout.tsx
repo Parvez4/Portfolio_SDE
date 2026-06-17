@@ -9,14 +9,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Parvez Shaik | SDE, SRE & Cloud Engineer",
+  title: "Parvez Shaik | Software Developer Portfolio",
   description:
-    "Portfolio for Parvez Shaik, a software engineer focused on backend systems, cloud reliability, DevOps automation, and AI retrieval infrastructure.",
-  metadataBase: new URL("https://parvez-portfolio.vercel.app"),
+    "Portfolio for Parvez Shaik, a Software Developer focused on full-stack web applications, backend APIs, SQL databases, cloud deployments, testing, and AI retrieval systems.",
+  metadataBase: new URL("https://parvezshaik.me"),
   openGraph: {
-    title: "Parvez Shaik | SDE, SRE & Cloud Engineer",
+    title: "Parvez Shaik | Software Developer Portfolio",
     description:
-      "Production-minded engineer building reliable cloud deployments, backend services, CI/CD systems, and AI retrieval infrastructure.",
+      "Full-stack, backend, cloud, and AI retrieval portfolio for Parvez Shaik.",
     type: "website",
   },
   robots: {
