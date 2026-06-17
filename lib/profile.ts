@@ -11,109 +11,108 @@ import {
 
 export const profile = {
   name: "Parvez Shaik",
-  title: "Software Engineer focused on SRE, Cloud, DevOps, and AI Retrieval Systems",
+  title: "Software Developer focused on full-stack applications, backend APIs, cloud reliability, and AI retrieval systems",
   location: "Bloomington, Indiana",
   email: "shaikparvez977@gmail.com",
   phone: "+1 (930) 904 4515",
   linkedin: "https://www.linkedin.com/in/parvez-shaik",
-  github: "https://github.com/Parvez",
+  github: "https://github.com/Parvez4",
   resume: "/Parvez_Shaik_Resume_SDE.pdf",
   summary:
-    "Software Engineer with experience in backend systems, AI retrieval, and cloud deployments. Strong in API development, performance tuning, deployment troubleshooting, and building systems that stay reliable after release.",
+    "Software Developer experienced in building web applications, backend services, APIs, and database-driven systems across the software development lifecycle. I work across React, TypeScript, Node.js, Python, Java, SQL databases, Docker, Jenkins, AWS EC2, and AI retrieval systems, with a strong focus on performance, testing, deployment reliability, and practical product impact.",
 };
 
 export const proofPoints = [
   {
     value: "99.7%",
     label: "Deployment reliability",
-    detail: "Turned recurring release failures into a steadier deployment path across Jenkins, Docker, and AWS EC2.",
+    detail: "Made production releases steadier by tracing failures through Jenkins, Docker runtime behavior, and AWS EC2 deployment paths.",
   },
   {
     value: "420 -> 295 ms",
     label: "PostgreSQL latency reduction",
-    detail: "Found the slow path, tightened the database layer, and made production reads noticeably faster.",
+    detail: "Improved SQL-backed workflows by tightening indexes, query paths, and the backend data access layer.",
   },
   {
     value: "35 min",
     label: "Release time saved per sprint",
-    detail: "Moved release checks earlier so teams spent less time chasing avoidable environment issues.",
+    detail: "Moved configuration, smoke-test, and integration checks earlier so release cycles had fewer avoidable surprises.",
   },
   {
     value: "23%",
     label: "Review effort reduced",
-    detail: "Added agent-assisted evaluation to an AI content pipeline, helping reviewers move faster without losing oversight.",
+    detail: "Added agent-assisted evaluation to an AI content workflow while keeping human review and measurable feedback in the loop.",
   },
 ];
 
 export const focusAreas = [
   {
     icon: ServerCog,
-    title: "Backend Systems",
-    copy: "Service layers that stay readable under load: APIs, caching, auth, and data paths teams can operate.",
+    title: "Backend and APIs",
+    copy: "Service layers, REST and GraphQL APIs, auth flows, SQL-backed workflows, and production debugging.",
   },
   {
     icon: Cloud,
-    title: "Cloud Reliability",
-    copy: "Release paths with fewer surprises: logs, smoke tests, runtime checks, and cleaner handoffs.",
+    title: "Cloud and Delivery",
+    copy: "Dockerized deployments, Jenkins and GitHub Actions workflows, smoke checks, and AWS-based runtime support.",
   },
   {
     icon: BrainCircuit,
     title: "AI Retrieval",
-    copy: "LLM workflows grounded by retrieval, evaluation loops, and the data structures behind useful answers.",
+    copy: "RAG and GraphRAG workflows grounded by vector search, evaluation loops, citation checks, and multi-agent orchestration.",
   },
 ];
 
 export const experience = [
   {
-    role: "Software Developer Intern",
-    company: "MyEdMaster",
-    period: "Jun 2025 - Aug 2025",
-    tags: ["GraphRAG", "AutoGen", "AWS EC2", "Redis", "MySQL"],
+    role: "Research Software Developer",
+    company: "Luddy School of Informatics, Indiana University Bloomington",
+    period: "Aug 2024 - May 2026",
+    tags: ["Python", "Flask", "MySQL", "Redis", "GraphRAG", "LlamaIndex", "AutoGen"],
     impact:
-      "Helped turn a manual content review process into an agent-assisted retrieval workflow with faster evaluation and stronger relevance.",
+      "Built research-backed software systems for educational content workflows, combining backend engineering with applied AI retrieval.",
     bullets: [
-      "Worked on a Python AI content pipeline using MySQL, Redis, and GraphRAG, integrating AutoGen agents to reduce manual content evaluation time by 23%.",
-      "Improved a proprietary LLM retrieval workflow with LlamaIndex and SpaCy, supporting 2,800+ topic-specific assessment items as relevancy rose from 72% to 83%.",
-      "Deployed a Flask backend on AWS EC2 with Docker and Apache, troubleshooting 4 recurring deployment issues through root cause analysis and improving model evaluation speed by 18%.",
+      "Worked on Python services, data pipelines, review tooling, and LLM-assisted retrieval workflows designed for real evaluator feedback rather than isolated demos.",
+      "Connected databases, retrieval frameworks, and cloud deployment pieces into workflows that supported repeated content review and model evaluation cycles.",
+      "Balanced AI automation with practical verification needs so generated content could be reviewed, measured, and improved over time.",
     ],
   },
   {
     role: "Software Development Engineer II",
-    company: "Cognizant",
+    company: "IBM",
     period: "Sep 2022 - Apr 2024",
-    tags: ["Node.js", "PostgreSQL", "Jenkins", "Docker", "React"],
+    tags: ["Node.js", "Express.js", "PostgreSQL", "React", "Docker", "Jenkins", "AWS EC2"],
     impact:
-      "Worked close to production systems where latency, failed builds, and release reliability had direct team impact.",
+      "Owned production application work across backend services, database performance, frontend modules, and release reliability.",
     bullets: [
-      "Partnered with backend engineers on Node.js and Express.js microservices, tuning PostgreSQL indexing and query execution to reduce retrieval latency from 420 ms to 295 ms.",
-      "Led root cause analysis for recurring deployment failures using Jenkins logs and Docker runtime checks on AWS EC2, improving deployment reliability to 99.7%.",
-      "Shifted configuration and smoke-test checks earlier in the pipeline, saving 35 minutes per sprint and reducing deployment failures by 45%.",
-      "Collaborated with UI/UX teams on React.js and TypeScript modules, improving frontend responsiveness by 28% and raising Lighthouse score from 78 to 91.",
+      "Worked through the full delivery loop: implementing services, improving SQL-backed workflows, supporting React interfaces, and reducing deployment friction.",
+      "Partnered with DevOps and QA teams to diagnose runtime issues and make Jenkins, Docker, and AWS EC2 deployments more predictable.",
+      "Treated performance and reliability as product work, connecting backend latency, frontend responsiveness, and release quality to user-facing outcomes.",
     ],
   },
   {
     role: "Software Development Engineer",
     company: "Cognizant",
     period: "Aug 2021 - Sep 2022",
-    tags: ["React", "GraphQL", "Django APIs", "Docker", "Jenkins"],
+    tags: ["React", "GraphQL", "Django APIs", "Docker", "Jenkins", "AWS EC2"],
     impact:
-      "Balanced internal product work with the infrastructure needed to make environments faster to set up and easier to trust.",
+      "Built internal analytics and reporting applications where frontend responsiveness, API integration, and reliable delivery mattered for daily business use.",
     bullets: [
-      "Built React.js dashboards for internal analytics workflows using GraphQL and Django APIs, supporting near real-time reporting for internal users.",
-      "Improved slow refresh behavior by working on data fetch handling and component rendering, increasing data rendering speed by 21.6%.",
-      "Helped containerize backend services on AWS EC2 using Docker and Jenkins, cutting setup time from 82 minutes to 39 minutes and reducing manual deployment errors by 17%.",
+      "Connected React dashboards with GraphQL and Django APIs so internal users could work with fresher operational data.",
+      "Improved dashboard refresh behavior by looking at API fetching, component rendering, and the handoff between frontend and backend systems.",
+      "Supported containerized backend environments so teams could set up, test, and release with fewer manual steps.",
     ],
   },
   {
-    role: "Software Development Intern",
+    role: "Software Developer",
     company: "Widhya",
     period: "Jan 2021 - Jul 2021",
-    tags: ["TensorFlow", "SpaCy", "Pandas", "Scikit-learn"],
+    tags: ["Python", "TensorFlow", "SpaCy", "Pandas", "Scikit-learn", "RNN"],
     impact:
-      "Built early discipline around experiments: cleaner preprocessing, repeatable evaluation, and measurable model improvement.",
+      "Started in applied machine learning and data workflow automation, building discipline around repeatable experiments and measurable model quality.",
     bullets: [
-      "Refined tokenization and model settings for an RNN text classifier, raising validation accuracy from 88.4% to 93.2%.",
-      "Automated preprocessing and evaluation scripts with Pandas and Scikit-learn, reducing repetitive testing time by 27%.",
+      "Worked on text classification, preprocessing, experiment scripting, and model evaluation with a focus on reproducibility.",
+      "Built the habit of measuring changes carefully, which still shapes how I approach backend performance, testing, and AI retrieval workflows.",
     ],
   },
 ];
@@ -121,12 +120,12 @@ export const experience = [
 export const projects = [
   {
     title: "Agentive Med",
-    stack: ["Python", "AG2", "AutoGen", "FAISS", "PubMed RAG", "Multi-Agent Systems"],
+    stack: ["Python", "AG2", "FAISS", "PubMed RAG", "LLMs", "Multi-Agent Systems"],
     demoUrl: "https://agentive-med-demo.vercel.app",
     repoUrl: "https://github.com/Parvez4/Agentive-Med",
     summary:
-      "A multi-agent Alzheimer care assistant built with supervisor orchestration, PubMed-backed FAISS retrieval, tool triage, and domain guardrails that cross-check LLM outputs against medical citations.",
-    metrics: ["AG2 supervisor orchestration", "PubMed-backed FAISS RAG", "Medical citation verification"],
+      "A multi-agent Alzheimer care assistant with supervisor orchestration, PubMed-backed FAISS retrieval, citation checks, and separated nutrition and medical agents for more verifiable responses.",
+    metrics: ["AG2 supervisor orchestration", "PubMed-backed FAISS RAG", "Medical citation checks"],
   },
   {
     title: "Distributed Vector Database for AI Applications",
@@ -134,8 +133,8 @@ export const projects = [
     demoUrl: "https://distributed-vector-db-demo.vercel.app",
     repoUrl: "https://github.com/Parvez4/Distributed-Vector-Database",
     summary:
-      "A distributed vector database designed with gRPC node communication, RocksDB storage, GraphRAG, and LlamaIndex for semantic retrieval across large LLM workloads.",
-    metrics: ["140M+ embeddings", "93 ms average query latency", "Context-aware search at scale"],
+      "A distributed vector database prototype using gRPC service communication, RocksDB storage, GraphRAG, LlamaIndex, and AWS S3 support for large-scale retrieval workloads.",
+    metrics: ["140M+ embedding target", "93 ms average query latency", "Context-aware search at scale"],
   },
 ];
 
@@ -143,41 +142,41 @@ export const skillGroups = [
   {
     icon: Code2,
     title: "Languages",
-    items: ["Python", "JavaScript", "TypeScript", "Java", "C", "J2EE", "JDBC"],
+    items: ["Python", "JavaScript", "Java", "TypeScript", "C"],
   },
   {
     icon: Workflow,
     title: "Backend and APIs",
-    items: ["Node.js", "Express.js", "Flask", "FastAPI", "Django", "REST", "GraphQL", "gRPC", "OAuth 2.0", "JWT"],
+    items: ["Node.js", "Express.js", "Flask", "FastAPI", "Django", "REST APIs", "GraphQL", "gRPC", "OAuth 2.0", "JWT"],
   },
   {
     icon: Database,
-    title: "Data Stores",
-    items: ["PostgreSQL", "MySQL", "Redis", "MongoDB", "RocksDB", "FAISS"],
+    title: "Databases and Storage",
+    items: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RocksDB", "FAISS", "SQL Queries", "Query Optimization"],
   },
   {
     icon: GitBranch,
     title: "Cloud and DevOps",
-    items: ["AWS EC2", "AWS S3", "AWS Lambda", "Azure", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Apache", "Bash"],
+    items: ["AWS EC2", "AWS S3", "AWS Lambda", "Azure", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Apache", "Bash", "CI/CD"],
   },
   {
     icon: BrainCircuit,
     title: "AI and Retrieval",
-    items: ["RAG", "GraphRAG", "PubMed RAG", "LlamaIndex", "FAISS", "AutoGen", "AG2", "SpaCy"],
+    items: ["RAG", "GraphRAG", "PubMed RAG", "LlamaIndex", "FAISS", "AutoGen", "AG2", "SpaCy", "LLMs"],
   },
   {
     icon: BrainCircuit,
     title: "ML and Data",
-    items: ["TensorFlow", "Pandas", "Scikit-learn", "RNN", "Data Preprocessing", "Model Evaluation"],
+    items: ["TensorFlow", "Pandas", "Scikit-learn", "RNN", "Data Preprocessing", "Model Evaluation", "Data Pipelines"],
   },
   {
     icon: Code2,
     title: "Frontend",
-    items: ["React.js", "Redux", "TypeScript", "Tailwind CSS", "Lighthouse"],
+    items: ["React.js", "Redux", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Lighthouse"],
   },
   {
     icon: ShieldCheck,
-    title: "Reliability",
-    items: ["Concurrency", "Observability", "Root Cause Analysis", "Smoke Tests", "Latency Optimization", "Query Optimization"],
+    title: "Testing and Quality",
+    items: ["Unit Testing", "Integration Testing", "Smoke Tests", "Debugging", "Troubleshooting", "Root Cause Analysis", "Production Support"],
   },
 ];
