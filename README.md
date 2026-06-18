@@ -17,6 +17,7 @@ This portfolio is designed around a high-signal recruiter flow:
 - Measured engineering impact metrics
 - Featured AI retrieval and distributed systems projects
 - Company experience summaries that complement, rather than repeat, the resume
+- Education section highlighting the MSCS at Indiana University Bloomington
 - Technical toolkit grouped by engineering domain
 - Contact section with direct profile links
 
