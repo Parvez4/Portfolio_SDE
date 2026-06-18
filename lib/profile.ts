@@ -162,8 +162,13 @@ export const skillGroups = [
     items: ["Python", "JavaScript", "Java", "TypeScript", "C"],
   },
   {
+    icon: Code2,
+    title: "Web Development",
+    items: ["React.js", "Redux", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Lighthouse"],
+  },
+  {
     icon: Workflow,
-    title: "Backend and APIs",
+    title: "Backend and API",
     items: ["Node.js", "Express.js", "Flask", "FastAPI", "Django", "REST APIs", "GraphQL", "gRPC", "OAuth 2.0", "JWT"],
   },
   {
@@ -177,9 +182,9 @@ export const skillGroups = [
     items: ["AWS EC2", "AWS S3", "AWS Lambda", "Azure", "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Apache", "Bash", "CI/CD"],
   },
   {
-    icon: BrainCircuit,
-    title: "AI and Retrieval",
-    items: ["RAG", "GraphRAG", "PubMed RAG", "LlamaIndex", "FAISS", "AutoGen", "AG2", "SpaCy", "LLMs"],
+    icon: ShieldCheck,
+    title: "Testing and Quality",
+    items: ["Unit Testing", "Integration Testing", "Smoke Tests", "Debugging", "Troubleshooting", "Root Cause Analysis", "Production Support"],
   },
   {
     icon: BrainCircuit,
@@ -187,13 +192,8 @@ export const skillGroups = [
     items: ["TensorFlow", "Pandas", "Scikit-learn", "RNN", "Data Preprocessing", "Model Evaluation", "Data Pipelines"],
   },
   {
-    icon: Code2,
-    title: "Frontend",
-    items: ["React.js", "Redux", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind CSS", "Lighthouse"],
-  },
-  {
-    icon: ShieldCheck,
-    title: "Testing and Quality",
-    items: ["Unit Testing", "Integration Testing", "Smoke Tests", "Debugging", "Troubleshooting", "Root Cause Analysis", "Production Support"],
+    icon: BrainCircuit,
+    title: "AI and Retrieval",
+    items: ["RAG", "GraphRAG", "PubMed RAG", "LlamaIndex", "FAISS", "AutoGen", "AG2", "SpaCy", "LLMs"],
   },
 ];
