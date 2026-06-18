@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ArrowRight, ArrowUpRight, Download, Github, Linkedin, Mail, MapPin, Phone, Sparkle } from "lucide-react";
 import { Nav } from "@/components/nav";
 import { Reveal } from "@/components/motion";
-import { experience, focusAreas, profile, projects, proofPoints, skillGroups } from "@/lib/profile";
+import { education, experience, focusAreas, profile, projects, proofPoints, skillGroups } from "@/lib/profile";
 
 function SectionLabel({ eyebrow, title }: { eyebrow: string; title: string }) {
   return (
@@ -78,7 +78,7 @@ export default function Home() {
               height={900}
               alt="Editorial line-art portrait of Parvez Shaik"
               priority
-              className="relative z-10 w-full max-w-[42rem]"
+              className="relative z-10 h-auto w-full max-w-[min(100%,42rem)]"
             />
           </div>
         </Reveal>
@@ -167,6 +167,7 @@ export default function Home() {
                   <p className="mt-5 text-sm font-black uppercase tracking-[0.2em] text-muted">{job.period}</p>
                   <h3 className="mt-4 text-2xl font-black text-ink">{job.role}</h3>
                   <p className="mt-1 text-lg text-muted">{job.company}</p>
+                  <p className="mt-1 text-sm font-semibold text-muted">{job.location}</p>
                   <div className="mt-5 flex flex-wrap gap-2">
                     {job.tags.map((tag) => (
                       <span key={tag} className="rounded-full bg-fog px-3 py-1.5 text-xs font-semibold text-ink">
@@ -236,12 +237,33 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="education" className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
+        <SectionLabel eyebrow="06 - Education" title="Education." />
+        <div className="grid gap-4 md:grid-cols-2">
+          {education.map((item, index) => {
+            const Icon = item.icon;
+            return (
+              <Reveal key={item.school} delay={index * 0.04}>
+                <article className="h-full rounded-2xl border fine-border bg-paper/62 p-6 md:p-8">
+                  <Icon className="text-accent" size={28} />
+                  <p className="mt-6 text-sm font-black uppercase tracking-[0.2em] text-muted">{item.period}</p>
+                  <h3 className="mt-4 text-2xl font-black text-ink">{item.degree}</h3>
+                  <p className="mt-2 text-lg text-muted">{item.school}</p>
+                  <p className="mt-1 text-sm font-semibold text-muted">{item.location}</p>
+                  <p className="mt-5 text-base leading-7 text-muted">{item.summary}</p>
+                </article>
+              </Reveal>
+            );
+          })}
+        </div>
+      </section>
+
       <section id="contact" className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
         <Reveal>
           <div className="rounded-[1.5rem] border fine-border bg-paper/74 p-7 md:p-10">
             <div className="grid gap-10 lg:grid-cols-[1fr_0.82fr]">
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.28em] text-muted">06 - Contact</p>
+                <p className="text-xs font-black uppercase tracking-[0.28em] text-muted">07 - Contact</p>
                 <h2 className="display-serif mt-4 max-w-3xl text-5xl leading-[0.95] text-ink md:text-7xl">
                   Let&apos;s build what works.
                 </h2>
