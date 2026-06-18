@@ -4,8 +4,8 @@ import { ThemeToggle } from "@/components/theme-toggle";
 
 const links = [
   ["Home", "#top"],
+  ["Lens", "#role-lens"],
   ["Work", "#projects"],
-  ["Impact", "#impact"],
   ["Experience", "#experience"],
   ["Skills", "#skills"],
   ["Education", "#education"],
