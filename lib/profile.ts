@@ -4,6 +4,7 @@ import {
   Code2,
   Database,
   GitBranch,
+  GraduationCap,
   ServerCog,
   ShieldCheck,
   Workflow,
@@ -68,6 +69,7 @@ export const experience = [
     role: "Research Software Developer",
     company: "Luddy School of Informatics, Indiana University Bloomington",
     period: "Aug 2024 - May 2026",
+    location: "Indiana, US",
     tags: ["Python", "Flask", "MySQL", "Redis", "GraphRAG", "LlamaIndex", "AutoGen"],
     impact:
       "Built research-backed software systems for educational content workflows, combining backend engineering with applied AI retrieval.",
@@ -81,6 +83,7 @@ export const experience = [
     role: "Software Development Engineer II",
     company: "IBM",
     period: "Sep 2022 - Apr 2024",
+    location: "Bengaluru, India",
     tags: ["Node.js", "Express.js", "PostgreSQL", "React", "Docker", "Jenkins", "AWS EC2"],
     impact:
       "Owned production application work across backend services, database performance, frontend modules, and release reliability.",
@@ -94,6 +97,7 @@ export const experience = [
     role: "Software Development Engineer",
     company: "Cognizant",
     period: "Aug 2021 - Sep 2022",
+    location: "Hyderabad, India",
     tags: ["React", "GraphQL", "Django APIs", "Docker", "Jenkins", "AWS EC2"],
     impact:
       "Built internal analytics and reporting applications where frontend responsiveness, API integration, and reliable delivery mattered for daily business use.",
@@ -107,6 +111,7 @@ export const experience = [
     role: "Software Developer",
     company: "Widhya",
     period: "Jan 2021 - Jul 2021",
+    location: "New Delhi, India",
     tags: ["Python", "TensorFlow", "SpaCy", "Pandas", "Scikit-learn", "RNN"],
     impact:
       "Started in applied machine learning and data workflow automation, building discipline around repeatable experiments and measurable model quality.",
@@ -114,6 +119,18 @@ export const experience = [
       "Worked on text classification, preprocessing, experiment scripting, and model evaluation with a focus on reproducibility.",
       "Built the habit of measuring changes carefully, which still shapes how I approach backend performance, testing, and AI retrieval workflows.",
     ],
+  },
+];
+
+export const education = [
+  {
+    icon: GraduationCap,
+    degree: "Master of Science in Computer Science",
+    school: "Indiana University Bloomington",
+    period: "Aug 2024 - May 2026",
+    location: "Bloomington, IN, USA",
+    summary:
+      "Graduate study focused on computer science foundations and software systems, alongside research software development work at the Luddy School of Informatics.",
   },
 ];
 
