@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowRight, ArrowUpRight, Download, Github, Linkedin, Mail, MapPin, Phone, Sparkle } from "lucide-react";
 import { Nav } from "@/components/nav";
 import { Reveal } from "@/components/motion";
+import { RoleLens } from "@/components/role-lens";
 import { education, experience, focusAreas, profile, projects, proofPoints, skillGroups } from "@/lib/profile";
 
 function SectionLabel({ eyebrow, title }: { eyebrow: string; title: string }) {
@@ -99,8 +100,15 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="role-lens" className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
+        <SectionLabel eyebrow="02 - Role Lens" title="Pick the signal you need." />
+        <Reveal>
+          <RoleLens />
+        </Reveal>
+      </section>
+
       <section id="projects" className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
-        <SectionLabel eyebrow="02 - Work" title="Featured projects." />
+        <SectionLabel eyebrow="03 - Work" title="Featured projects." />
         {projects.map((project) => (
           <Reveal key={project.title}>
             <article className="overflow-hidden rounded-[1.5rem] border fine-border bg-paper/70">
@@ -157,7 +165,7 @@ export default function Home() {
       </section>
 
       <section id="experience" className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
-        <SectionLabel eyebrow="03 - Experience" title="Professional experience." />
+        <SectionLabel eyebrow="04 - Experience" title="Professional experience." />
         <div className="space-y-4">
           {experience.map((job, index) => (
             <Reveal key={`${job.company}-${job.role}`} delay={index * 0.04}>
@@ -178,6 +186,14 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-lg leading-8 text-ink">{job.impact}</p>
+                  <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                    {job.achievements.map((achievement) => (
+                      <div key={`${job.company}-${achievement.value}`} className="rounded-lg border fine-border bg-fog/72 p-4">
+                        <p className="display-serif text-3xl leading-none text-accent">{achievement.value}</p>
+                        <p className="mt-2 text-sm font-black leading-5 text-ink">{achievement.label}</p>
+                      </div>
+                    ))}
+                  </div>
                   <ul className="mt-6 space-y-4">
                     {job.bullets.map((bullet) => (
                       <li key={bullet} className="flex gap-3 text-base leading-7 text-muted">
@@ -194,7 +210,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
-        <SectionLabel eyebrow="04 - Strengths" title="Engineering focus." />
+        <SectionLabel eyebrow="05 - Strengths" title="Engineering focus." />
         <div className="grid gap-4 md:grid-cols-3">
           {focusAreas.map((area, index) => {
             const Icon = area.icon;
@@ -212,7 +228,7 @@ export default function Home() {
       </section>
 
       <section id="skills" className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
-        <SectionLabel eyebrow="05 - Skills" title="Technical toolkit." />
+        <SectionLabel eyebrow="06 - Skills" title="Technical toolkit." />
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {skillGroups.map((group, index) => {
             const Icon = group.icon;
@@ -238,7 +254,7 @@ export default function Home() {
       </section>
 
       <section id="education" className="mx-auto max-w-[96rem] border-t fine-border px-4 py-16 sm:px-8 lg:px-10">
-        <SectionLabel eyebrow="06 - Education" title="Education." />
+        <SectionLabel eyebrow="07 - Education" title="Education." />
         <div className="grid gap-4 md:grid-cols-2">
           {education.map((item, index) => {
             const Icon = item.icon;
@@ -263,7 +279,7 @@ export default function Home() {
           <div className="rounded-[1.5rem] border fine-border bg-paper/74 p-7 md:p-10">
             <div className="grid gap-10 lg:grid-cols-[1fr_0.82fr]">
               <div>
-                <p className="text-xs font-black uppercase tracking-[0.28em] text-muted">07 - Contact</p>
+                <p className="text-xs font-black uppercase tracking-[0.28em] text-muted">08 - Contact</p>
                 <h2 className="display-serif mt-4 max-w-3xl text-5xl leading-[0.95] text-ink md:text-7xl">
                   Let&apos;s build what works.
                 </h2>
