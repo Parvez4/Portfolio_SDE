@@ -73,6 +73,12 @@ export const experience = [
     tags: ["Python", "Flask", "MySQL", "Redis", "GraphRAG", "LlamaIndex", "AutoGen"],
     impact:
       "Built research-backed software systems for educational content workflows, combining backend engineering with applied AI retrieval.",
+    achievements: [
+      { value: "23%", label: "Less manual evaluation time" },
+      { value: "2,800+", label: "Assessment items supported" },
+      { value: "72% -> 83%", label: "Content relevancy lift" },
+      { value: "18%", label: "Faster model evaluation" },
+    ],
     bullets: [
       "Worked on Python services, data pipelines, review tooling, and LLM-assisted retrieval workflows designed for real evaluator feedback rather than isolated demos.",
       "Connected databases, retrieval frameworks, and cloud deployment pieces into workflows that supported repeated content review and model evaluation cycles.",
@@ -87,6 +93,12 @@ export const experience = [
     tags: ["Node.js", "Express.js", "PostgreSQL", "React", "Docker", "Jenkins", "AWS EC2"],
     impact:
       "Owned production application work across backend services, database performance, frontend modules, and release reliability.",
+    achievements: [
+      { value: "420 -> 295 ms", label: "Data retrieval latency" },
+      { value: "45%", label: "Fewer deployment failures" },
+      { value: "99.7%", label: "Deployment reliability" },
+      { value: "78 -> 91", label: "Lighthouse score" },
+    ],
     bullets: [
       "Worked through the full delivery loop: implementing services, improving SQL-backed workflows, supporting React interfaces, and reducing deployment friction.",
       "Partnered with DevOps and QA teams to diagnose runtime issues and make Jenkins, Docker, and AWS EC2 deployments more predictable.",
@@ -101,6 +113,11 @@ export const experience = [
     tags: ["React", "GraphQL", "Django APIs", "Docker", "Jenkins", "AWS EC2"],
     impact:
       "Built internal analytics and reporting applications where frontend responsiveness, API integration, and reliable delivery mattered for daily business use.",
+    achievements: [
+      { value: "21.6%", label: "Faster data rendering" },
+      { value: "82 -> 39 min", label: "Environment setup time" },
+      { value: "17%", label: "Fewer manual deployment errors" },
+    ],
     bullets: [
       "Connected React dashboards with GraphQL and Django APIs so internal users could work with fresher operational data.",
       "Improved dashboard refresh behavior by looking at API fetching, component rendering, and the handoff between frontend and backend systems.",
@@ -115,6 +132,10 @@ export const experience = [
     tags: ["Python", "TensorFlow", "SpaCy", "Pandas", "Scikit-learn", "RNN"],
     impact:
       "Started in applied machine learning and data workflow automation, building discipline around repeatable experiments and measurable model quality.",
+    achievements: [
+      { value: "88.4% -> 93.2%", label: "Validation accuracy" },
+      { value: "27%", label: "Less repetitive testing time" },
+    ],
     bullets: [
       "Worked on text classification, preprocessing, experiment scripting, and model evaluation with a focus on reproducibility.",
       "Built the habit of measuring changes carefully, which still shapes how I approach backend performance, testing, and AI retrieval workflows.",
@@ -131,6 +152,44 @@ export const education = [
     location: "Bloomington, IN, USA",
     summary:
       "Graduate study focused on computer science foundations and software systems, alongside research software development work at the Luddy School of Informatics.",
+  },
+];
+
+export const roleLenses = [
+  {
+    name: "Backend/API",
+    summary:
+      "Production services, data access layers, REST/GraphQL/gRPC integrations, auth-aware APIs, and SQL tuning.",
+    proof: ["420 -> 295 ms PostgreSQL latency", "Django and GraphQL analytics APIs", "gRPC vector database services"],
+    skills: ["Node.js", "Express.js", "Django", "Flask", "FastAPI", "GraphQL", "gRPC", "PostgreSQL"],
+  },
+  {
+    name: "Cloud/DevOps",
+    summary:
+      "Dockerized services, Jenkins release paths, AWS EC2 deployments, smoke checks, and runtime troubleshooting.",
+    proof: ["99.7% deployment reliability", "45% fewer deployment failures", "82 -> 39 min environment setup"],
+    skills: ["Docker", "Jenkins", "AWS EC2", "Apache", "GitHub Actions", "Smoke Tests", "CI/CD"],
+  },
+  {
+    name: "AI/Retrieval",
+    summary:
+      "RAG, GraphRAG, vector search, LLM evaluation workflows, and multi-agent systems with verifiable outputs.",
+    proof: ["2,800+ assessment items", "72% -> 83% relevancy lift", "140M+ embedding retrieval target"],
+    skills: ["GraphRAG", "LlamaIndex", "FAISS", "AutoGen", "AG2", "SpaCy", "LLMs"],
+  },
+  {
+    name: "Frontend",
+    summary:
+      "React, TypeScript, Redux, Tailwind, dashboard performance, and usability improvements tied to measurable outcomes.",
+    proof: ["28% frontend responsiveness lift", "78 -> 91 Lighthouse score", "21.6% faster dashboard rendering"],
+    skills: ["React.js", "TypeScript", "Redux", "Tailwind CSS", "Lighthouse", "GraphQL"],
+  },
+  {
+    name: "Testing/Quality",
+    summary:
+      "Integration checks, smoke tests, debugging, model evaluation, root-cause analysis, and release confidence.",
+    proof: ["35 min saved per sprint", "27% less repetitive model testing", "Recurring deployment issues resolved"],
+    skills: ["Integration Testing", "Smoke Tests", "Debugging", "Root Cause Analysis", "Model Evaluation"],
   },
 ];
 
